@@ -76,6 +76,9 @@ def read_markdown_file(filepath):
         # Convert to HTML
         html_content = markdown.markdown(md_content, extensions=['extra', 'nl2br'])
         
+        # Remove title from html_content
+        html_content = html_content.replace(f'<h1>{title}</h1>', '')
+        
         return html_content, title
     except Exception as e:
         print(f"Error reading {filepath}: {e}")

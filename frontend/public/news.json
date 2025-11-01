@@ -1,0 +1,484 @@
+{
+  "generated_at": "2025-11-01T16:07:20.580028",
+  "total_news": 56,
+  "years": [
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2017,
+    2016,
+    2015,
+    2014,
+    2013,
+    2012,
+    2011
+  ],
+  "news_by_year": {
+    "2023": [
+      {
+        "date": "2023-10-10",
+        "formatted_date": "October 10, 2023",
+        "year": 2023,
+        "content": "\n<p>Trip to Cape Cod 2023.</p>",
+        "title": "Annual Lab Retreat. Barnstable, MA.",
+        "image": "/data/news/2023-10-10.jpg"
+      },
+      {
+        "date": "2023-07-07",
+        "formatted_date": "July 07, 2023",
+        "year": 2023,
+        "content": "\n<p>Golf Lesson.</p>",
+        "title": "Summer Lab Outing. Newton, MA.",
+        "image": "/data/news/2023-07-07.jpg"
+      }
+    ],
+    "2022": [
+      {
+        "date": "2022-10-28",
+        "formatted_date": "October 28, 2022",
+        "year": 2022,
+        "content": "\n<p>Trip to Cape Cod 2022.</p>",
+        "title": "Annual Lab Retreat. Falmouth, MA.",
+        "image": "/data/news/2022-10-28.jpg"
+      },
+      {
+        "date": "2022-06-28",
+        "formatted_date": "June 28, 2022",
+        "year": 2022,
+        "content": "\n<p>Trip along the coastal railway of Aquidneck Island.</p>",
+        "title": "Lab Outing. Rail Explorers. RI.",
+        "image": "/data/news/2022-06-28.jpg"
+      },
+      {
+        "date": "2022-03-05",
+        "formatted_date": "March 05, 2022",
+        "year": 2022,
+        "content": "\n<p>The lab members had fun at Kendal square skating rink.</p>",
+        "title": "Skating Night at Kendall square!",
+        "image": "/data/news/2022-03-05.jpg"
+      },
+      {
+        "date": "2022-02-21",
+        "formatted_date": "February 21, 2022",
+        "year": 2022,
+        "content": "\n<p>Rapamycin given during development extends lifespan and healthspan of diverse UMHET and Daphnia <a href=\"https://bit.ly/3h0O7Ic\">https://bit.ly/3h0O7Ic</a>.<br />\nIndependently, Aiello et al, show similar longevity effects in CD1 🐭 and 🪰 <a href=\"https://bit.ly/359SsWG\">https://bit.ly/359SsWG</a>. Thanks to everyone involved!</p>",
+        "title": "Our new preprint is here!"
+      },
+      {
+        "date": "2022-01-19",
+        "formatted_date": "January 19, 2022",
+        "year": 2022,
+        "content": "\n<p>Our newly published study in Nature Communications demonstrates that the NMR (the longest-lived rodents) ages epigenetically even in the absence of demographic aging.</p>\n<p><a href=\"https://www.nature.com/articles/s41467-022-27959-9\">Epigenetic aging of the demographically non-aging naked mole-rat</a></p>",
+        "title": "Congratulations to Vadim Gladyshev, Csaba Kerepesi, and everyone involved!",
+        "image": "/data/news/2022-01-19.jpeg"
+      }
+    ],
+    "2021": [
+      {
+        "date": "2021-12-23",
+        "formatted_date": "December 23, 2021",
+        "year": 2021,
+        "content": "\n<p>The newly published article in Nature Aging covers various aspects of damage during aging.</p>\n<p><a href=\"https://www.nature.com/articles/s43587-021-00150-3\">Molecular damage in aging</a></p>",
+        "title": "Congratulations to Vadim Gladyshev Bohan Zhang, and everyone involved!",
+        "image": "/data/news/2021-12-23.jpeg"
+      },
+      {
+        "date": "2021-12-14",
+        "formatted_date": "December 14, 2021",
+        "year": 2021,
+        "content": "\n<p>Check out this Nature Aging paper to learn how they used it to track age dynamics in ESCs: <a href=\"https://go.nature.com/3DRZb3j\">https://go.nature.com/3DRZb3j</a></p>",
+        "title": "The Gladyshev Lab developed scAge, a new statistical framework for epigenetic age profiling at single-cell resolution!",
+        "image": "/data/news/2021-12-14.jpeg"
+      },
+      {
+        "date": "2021-12-02",
+        "formatted_date": "December 02, 2021",
+        "year": 2021,
+        "content": "\n<p>Using mice and human data, we uncover how aging can lead to lymphoma. Rapamycin and c-Myc deficiency are potential therapeutics.</p>\n<p><a href=\"https://www.biorxiv.org/content/10.1101/2021.02.23.432500v2\">ntegrative analysis reveals aged clonal B cells, microenvironment and c-Myc activation in the origin of age-related lymphoma</a></p>",
+        "title": "Congratulations to Anastasia Shindyapina and everyone involved on the newly published study!!",
+        "image": "/data/news/2021-12-02.jpg"
+      },
+      {
+        "date": "2021-11-16",
+        "formatted_date": "November 16, 2021",
+        "year": 2021,
+        "content": "\n<p><a href=\"https://www.biorxiv.org/content/10.1101/2021.11.11.468258v1\">Multi-omic rejuvenation and lifespan extension upon exposure to youthful circulation</a></p>",
+        "title": "Congratulations to Bohan Zhang, Alex Trapp, David Lee and everyone involved!"
+      },
+      {
+        "date": "2021-10-08",
+        "formatted_date": "October 08, 2021",
+        "year": 2021,
+        "content": "\n<p>The lab had a phenomenal weekend retreat in Cape Cod, filled with great food, biking, and a couple fierce board games!</p>",
+        "title": "Lab Retreat in Cape Cod!",
+        "image": "/data/news/2021-10-08.jpg"
+      },
+      {
+        "date": "2021-10-05",
+        "formatted_date": "October 05, 2021",
+        "year": 2021,
+        "content": "\n<p>Our new study, published in <a href=\"https://www.nature.com/articles/s43856-021-00033-z\">Communications Medicine</a>, reveals that genetic variation that supports longer life is significantly associated with a lower risk of COVID-19 infection and hospitalization. We also find an interesting link between COVID and the Notch signaling pathway. Congrats to graduate student Albert and everyone involved!</p>",
+        "title": "Our paper on the genetic links between COVID19 and aging is published!",
+        "image": "/data/news/2021-10-05.png"
+      },
+      {
+        "date": "2021-07-14",
+        "formatted_date": "July 14, 2021",
+        "year": 2021,
+        "content": "\n<p><a href=\"https://foresight.org/resource/biomarker-aging-clock-development-vadim-gladyshev-harvard-gordan-lauc-glycanage/\">Foresight Institute Link</a></p>\n<p><a href=\"https://youtu.be/bgvFYVN_aWI?si=GVL3Mbeg297wxTkL\">YouTube Link</a></p>",
+        "title": "Recent talk by Vadim Gladyshev  at Foresight Institute",
+        "image": "/data/news/2021-07-14.png"
+      },
+      {
+        "date": "2021-06-28",
+        "formatted_date": "June 28, 2021",
+        "year": 2021,
+        "content": "\n<p>The whole lab went on a kayaking trip on the Charles River (separating Cambridge and Boston) followed by a great lunch at Shy Bird!</p>",
+        "title": "Kayaking on the Charles!",
+        "image": "/data/news/2021-06-28.jpg"
+      },
+      {
+        "date": "2021-06-25",
+        "formatted_date": "June 25, 2021",
+        "year": 2021,
+        "content": "\n<p>Our new study, published in <a href=\"https://advances.sciencemag.org/content/7/26/eabg6082\">Science Advances</a>, reveals that mammalian embryogenesis is characterized by an epigenetic rejuvenation period, opening up avenues for future work on rejuvenation. Congrats to Csaba and the rest of the team!</p>\n<p>Some news coverage of the article:<br />\n<a href=\"https://www.sciencenews.org/article/embryos-biological-clock-development\">Science News</a><br />\n<a href=\"https://medicalxpress.com/news/2021-06-mouse-human-germline-cells-reset.html\">MedicalXpress</a><br />\n<a href=\"https://interestingengineering.com/human-embryos-reverse-biological-clock\">Interesting Engineering</a></p>",
+        "title": "Embryonic rejuvenation paper published!",
+        "image": "/data/news/2021-06-25.jpg"
+      },
+      {
+        "date": "2021-04-26",
+        "formatted_date": "April 26, 2021",
+        "year": 2021,
+        "content": "\n<p>Vadim was elected to the National Academy of Sciences in April 2021. Congratulations Vadim! <a href=\"http://www.nasonline.org/news-and-multimedia/news/2021-nas-election.html\">Click here to learn more</a>.</p>",
+        "title": "National Academy of Sciences Election",
+        "image": "/data/news/2021-04-26.jpg"
+      },
+      {
+        "date": "2021-04-01",
+        "formatted_date": "April 01, 2021",
+        "year": 2021,
+        "content": "\n<p>Recent alumni from the lab have moved on to faculty positions and started their own groups in the US and in Europe:<br />\n<strong>Alaattin Kaya</strong> has started <a href=\"https://www.kayalab.org/\">his group at Virginia Commonwealth University</a>.<br />\n<strong>Sun Hee Yim</strong> is <a href=\"http://www.entx.ttu.edu/dr.-sun-hee-yim.html\">starting a lab at Texas Tech University</a>.<br />\n<strong>Marco Mariotti</strong> is <a href=\"https://www.mariottigenomicslab.com/\">starting a lab at Universitat de Barcelona</a>.</p>",
+        "title": "Lab Alumni Start Independent Groups"
+      },
+      {
+        "date": "2021-01-29",
+        "formatted_date": "January 29, 2021",
+        "year": 2021,
+        "content": "\n<p>The lab gathered to say farewell to instructor Marco before his departure for Spain, where is starting <a href=\"https://www.mariottigenomicslab.com/\">his own genomics lab</a> at Universitat de Barcelona!</p>",
+        "title": "Farewell Marco!",
+        "image": "/data/news/2021-01-29.jpg"
+      },
+      {
+        "date": "2021-01-15",
+        "formatted_date": "January 15, 2021",
+        "year": 2021,
+        "content": "\n<p>New publication from Vadim Gladyshev!</p>\n<p><strong>Abstract:</strong><br />\nCells may naturally proceed or be forced to transition to a state with a radically lower biological age, that is, be rejuvenated. Examples are the conversion of somatic cells to induced pluripotent stem cells and rejuvenation of the germline with each generation. We posit that these processes converge to the same ‘ground zero’, the mid-embryonic state characterized by the lowest biological age where both organismal life and aging begin. It may also be related to the phylotypic state. The ground zero model clarifies the relationship between aging, development, rejuvenation, and de-differentiation, which are distinct throughout life. By extending the rejuvenation phase during early embryogenesis and editing the genome, it may be possible to achieve the biological age at the ground zero lower than that achieved naturally.</p>\n<p><a href=\"https://www.cell.com/trends/molecular-medicine/fulltext/S1471-4914(20)30217-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1471491420302173%3Fshowall%3Dtrue\">Publication Link</a></p>",
+        "title": "The Ground Zero of Organismal Life and Aging",
+        "image": "/data/news/2021-01-15.jpg"
+      }
+    ],
+    "2020": [
+      {
+        "date": "2020-06-18",
+        "formatted_date": "June 18, 2020",
+        "year": 2020,
+        "content": "\n<p>The Gladyshev lab gathered in a COVID-safe fashion to say goodbye to postdoc Jose before his departure for Portugal.</p>",
+        "title": "Farewell Jose!",
+        "image": "/data/news/2020-06-18.jpg"
+      },
+      {
+        "date": "2020-02-07",
+        "formatted_date": "February 07, 2020",
+        "year": 2020,
+        "content": "\n<p>Vadim received the Iron Bolt Award at the Gordon Research Conference on Oxygen Radicals in February 2020. <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0891584918310633?via%3Dihub\">Click here to learn more about the Iron Bolt</a>.</p>",
+        "title": "Iron Bolt Award",
+        "image": "/data/news/2020-02-07.jpg"
+      }
+    ],
+    "2019": [
+      {
+        "date": "2019-05-15",
+        "formatted_date": "May 15, 2019",
+        "year": 2019,
+        "content": "\n<p>Dr. Gladyshev and Dr. Aubrey de Grey debate the feasibility of comprehensive damage repair at ‘Undoing Aging 2019’ in Berlin, Germany. To watch the debate click <a href=\"https://www.youtube.com/watch?v=gV-6g5p8jAM\">here</a>.</p>",
+        "title": "Dr. Gladyshev Debates – Undoing Aging"
+      }
+    ],
+    "2017": [
+      {
+        "date": "2017-09-05",
+        "formatted_date": "September 05, 2017",
+        "year": 2017,
+        "content": "\n<p>A few members of the Gladyshev lab took a day trip to North Conway, NH during Labor Day weekend to enjoy antique trains, hiking and waterfalls.</p>",
+        "title": "End of Summer 2017 Excursion",
+        "image": "/data/news/2017-09-05.jpg"
+      },
+      {
+        "date": "2017-04-05",
+        "formatted_date": "April 05, 2017",
+        "year": 2017,
+        "content": "\n<p>Our new paper entitled “Using DNA Methylation Profiling to Evaluate Biological Age and Longevity Interventions” is receiving media attention. To read more click <a href=\"https://www.eurekalert.org/pub_releases/2017-04/bawh-ba040517.php\">here</a>.</p>",
+        "title": "EurekAlert"
+      },
+      {
+        "date": "2017-03-17",
+        "formatted_date": "March 17, 2017",
+        "year": 2017,
+        "content": "\n<p>Sang Goo Lee’s (et al) paper entitled, “Age-associated molecular changes are deleterious and may modulate life span through diet,” is featured in the February 2017 issue of Harvard Magazine. To read more on this feature, click <a href=\"http://harvardmagazine.com/2017/02/old-food-reduces-lifespan\">here</a>.</p>",
+        "title": "Diet Paper Featured in Harvard Magazine"
+      },
+      {
+        "date": "2017-03-08",
+        "formatted_date": "March 08, 2017",
+        "year": 2017,
+        "content": "\n<p>The Gladyshev lab would like to wish all women in the world a wonderful Women’s International Day! Below is a photo of Dr. Gladyshev with some of the women that make up his international team.</p>",
+        "title": "Happy Women’s International Day 2017",
+        "image": "/data/news/2017-03-08.jpg"
+      }
+    ],
+    "2016": [
+      {
+        "date": "2016-11-23",
+        "formatted_date": "November 23, 2016",
+        "year": 2016,
+        "content": "\n<p>Pictured are some members of the Gladyshev, Liao, and Loscalzo labs at their 3rd Annual Thanksgiving Potluck.</p>",
+        "title": "3rd Annual Lab Thanksgiving Celebration",
+        "image": "/data/news/2016-11-23.jpg"
+      },
+      {
+        "date": "2016-10-24",
+        "formatted_date": "October 24, 2016",
+        "year": 2016,
+        "content": "\n<p>Some member’s of the lab took a Sunday drive to the outskirts of Boston to enjoy a wonderful sunny day apple-picking at Shelburne Farm. For one grad student, this was the first time experiencing such an outing, and therefore, truly enjoyed this fall New England tradition.</p>",
+        "title": "Apple-picking at Shelburne Farm",
+        "image": "/data/news/2016-10-24.jpg"
+      },
+      {
+        "date": "2016-07-11",
+        "formatted_date": "July 11, 2016",
+        "year": 2016,
+        "content": "\n<p>Dr. Gladyshev is featured and recognized as a Redox Pioneer in Volume 25, Issue 1 of the ARS Journal. To discover more about this article, click <a href=\"http://online.liebertpub.com/doi/abs/10.1089/ars.2015.6625\">here</a>.</p>",
+        "title": "ARS “Redox Pioneer” Feature",
+        "image": "/data/news/2016-07-11.png"
+      },
+      {
+        "date": "2016-06-29",
+        "formatted_date": "June 29, 2016",
+        "year": 2016,
+        "content": "\n<p>The lab’s annual summer outing this year was a hike on Mt. Major. Atop the summit, the lab enjoyed a guitar serenade by postdoc Marco, singing Happy Birthday (in French!) to postdoc Adeline, and enjoying the spectacular view of New Hampshire at 544 meters high! The day-trip concluded with ice cream to cool-off from the intense hike and heat.</p>",
+        "title": "Summer Lab Outing to Mt. Major",
+        "image": "/data/news/2016-06-29.jpg"
+      },
+      {
+        "date": "2016-06-20",
+        "formatted_date": "June 20, 2016",
+        "year": 2016,
+        "content": "\n<p>Last Friday, Dr. Gladyshev was invited to speak at the 11th Annual Harvard/Glenn Symposium on Aging. Every year, the Paul F. Glenn Center for the Biology of Aging hosts the Harvard Symposium on Aging at Harvard Medical School. The mission of the symposium is to educate the wider research community about advancements in this fast-paced field and to stimulate collaborative research in this area.</p>\n<p>Following the symposium, Dr. Gladyshev was gifted the Paul F. Glenn Aging award (pictured above) by the Center’s Co-Directors, Drs. Bruce Yankner and David Sinclair, along with the President and Director of the Glenn Foundation for Medical Research, Mark R. Collins.</p>\n<p>More information and photos of the day’s event can be viewed <a href=\"http://www.hms.harvard.edu/agingresearch/index.php/events/symposiums\">here</a>.</p>",
+        "title": "11th Annual Symposium on Aging",
+        "image": "/data/news/2016-06-20.png"
+      },
+      {
+        "date": "2016-06-16",
+        "formatted_date": "June 16, 2016",
+        "year": 2016,
+        "content": "\n<p>Dr. Gladyshev is featured in this week’s BWH Clinical &amp; Research News. Read more regarding his passion for aging research here.</p>",
+        "title": "BWH Research News",
+        "image": "/data/news/2016-06-16.jpg"
+      },
+      {
+        "date": "2016-06-07",
+        "formatted_date": "June 07, 2016",
+        "year": 2016,
+        "content": "\n<p>The Gladyshev lab would like to congratulate Dr. Siming Ma on his 2016 graduation from Harvard University. Above, Dr. Ma is pictured with his advisor, Dr. Gladyshev, at his May 26th Hooding Ceremony. It was a pleasure to have Dr. Ma as a part of our team for four productive years! We wish him amazing success in his future endeavors.</p>",
+        "title": "Congratulations to Dr. Siming Ma",
+        "image": "/data/news/2016-06-07.jpg"
+      },
+      {
+        "date": "2016-04-15",
+        "formatted_date": "April 15, 2016",
+        "year": 2016,
+        "content": "\n<p>Siming Ma, a graduate research student in our lab, successfully defended his thesis titled, “Molecular Patterns and Signatures of Longevity” today. Siming joined the lab in April 2012 as a graduate student of the Harvard Biological and Biomedical Sciences (BBS) PhD program. For his thesis research, Siming developed and used bioinformatics tools to analyze the variation of gene expression, metabolites and elements across different species of mammals, flies and yeasts, to identify the molecular patterns associated with species natural lifespans. During this time, he published 3 papers as first author and 6 papers as contributing author. Following his graduation, Siming will join the Genome Institute of Singapore to focus on cancer biology. Congratulations Dr. Ma!</p>",
+        "title": "Grad Student Successfully Defends PhD Thesis",
+        "image": "/data/news/2016-04-15.jpg"
+      },
+      {
+        "date": "2016-01-26",
+        "formatted_date": "January 26, 2016",
+        "year": 2016,
+        "content": "\n<p>On Monday, Jan. 25th, Dr. Gladyshev hosted a lab only event discussing the nature of aging. Guest lecturers were invited to propose their theories on aging in relation to their current research. The event lead to an afternoon of insightful discussions on this very hot topic.</p>",
+        "title": "The Nature of Aging",
+        "image": "/data/news/2016-01-26.jpg"
+      }
+    ],
+    "2015": [
+      {
+        "date": "2015-09-02",
+        "formatted_date": "September 02, 2015",
+        "year": 2015,
+        "content": "\n<p>Yesterday, the Genome Research September issue was released much to the delightful surprise of our colleague, Dr. Marco Mariotti. The <a href=\"http://genome.cshlp.org/content/25/9.cover-expansion\">September cover</a> features artwork painted by Dr. Mariotti’s mother, Milena Biolcati Rinaldi. The cover illustration was inspired by the concepts of Mariotti et al’s SPS paper, which is published in the September issue.</p>\n<p>More information on the SPS publication can be found <a href=\"http://genome.cshlp.org/content/25/9/1256.abstract\">here</a>.</p>",
+        "title": "SPS Publication Makes Cover of September’s Genome Research",
+        "image": "/data/news/2015-09-02.jpg"
+      },
+      {
+        "date": "2015-07-10",
+        "formatted_date": "July 10, 2015",
+        "year": 2015,
+        "content": "\n<p>What is life like post-Gladyshev lab? Two former lab members share their current career accomplishments.</p>\n<p><strong>Byung Cheon Lee, Ph.D.</strong><br />\n<em>Lab Member from 2006-2014</em><br />\nDr. Lee is currently an Assistant Professor in the Division of Biotechnology, College of Life Sciences and Biotechnology at Korea University located in Seoul, S. Korea. Dr. Lee’s research is focused on Redox Biology (redox protein biochemistry; functional regulation by redox protein; and the development of sensing system to redox status change) and Aging Biology (mechanism of lifespan extension by methionine restriction diet; and the regulation of aging by hydrogen sulfide and sulfur metabolism).</p>",
+        "title": "Update on Former Lab Members",
+        "image": "/data/news/2015-07-10.jpg"
+      },
+      {
+        "date": "2015-07-09",
+        "formatted_date": "July 09, 2015",
+        "year": 2015,
+        "content": "\n<p>What is life like post-Gladyshev lab? Two former lab members share their current career accomplishments.</p>\n<p><strong>Vyacheslav Labunskyy, Ph.D.</strong><br />\n<em>Lab Member from 2003-2014</em><br />\nDr. Labunskyy is currently an Assistant Professor in the Department of Dermatology at Boston University School of Medicine located in Boston, MA. Research in the Labunskyy lab is focused on the biology of aging and studying the mechanisms that underlie aging in humans using skin aging as a model system.</p>",
+        "title": "Update on Former Lab Members",
+        "image": "/data/news/2015-07-09.jpg"
+      },
+      {
+        "date": "2015-06-29",
+        "formatted_date": "June 29, 2015",
+        "year": 2015,
+        "content": "\n<p>The Gladyshev Lab took their annual lab summer celebration out to the Boston Harbor Islands.</p>",
+        "title": "Lab Excursion to Georges Island",
+        "image": "/data/news/2015-06-29.jpg"
+      }
+    ],
+    "2014": [
+      {
+        "date": "2014-12-11",
+        "formatted_date": "December 11, 2014",
+        "year": 2014,
+        "content": "\n<p>Dr. Gladyshev speaks on oxidative species, origins of senescence, and cumulative damage with Serious Science. The video makes it to #6 on the Top-20 list.</p>",
+        "title": "“Molecular Causes of Aging” makes Top-20 on Serious Science",
+        "image": "/data/news/2014-12-11.png"
+      },
+      {
+        "date": "2014-11-26",
+        "formatted_date": "November 26, 2014",
+        "year": 2014,
+        "content": "\n<p>Some of the members of the Gladyshev, Liao, &amp; Loscalzo labs pictured at the annual Thanksgiving lab celebration.</p>",
+        "title": "Happy Thanksgiving!!",
+        "image": "/data/news/2014-11-26.jpg"
+      }
+    ],
+    "2013": [
+      {
+        "date": "2013-10-02",
+        "formatted_date": "October 02, 2013",
+        "year": 2013,
+        "content": "\n<p>Dr. Gladyshev has been awarded the 2013 NIH Director’s Pioneer Award for his project proposal entitled, “Mechanisms of lifespan control.” The Pioneer Award “complements NIH’s traditional, investigator-initiated grant programs by supporting individual scientists of exceptional creativity, who propose pioneering – and possibly transforming approaches – to major challenges in biomedical and behavioral research.” Dr. Gladyshev shares this year’s honor with 11 other U.S. scientists.</p>\n<p><a href=\"http://commonfund.nih.gov/pioneer/\">Click to learn more about the Pioneer Award &amp; Dr. Gladyshev’s project</a></p>",
+        "title": "Dr. Gladyshev – 2013 Pioneer Award Recipient",
+        "image": "/data/news/2013-10-02.png"
+      },
+      {
+        "date": "2013-06-15",
+        "formatted_date": "June 15, 2013",
+        "year": 2013,
+        "content": "\n<p>Celebrating the start of summer at Larz Anderson Park.</p>",
+        "title": "2013 Lab BBQ Summer Kick-Off",
+        "image": "/data/news/2013-06-15.jpg"
+      },
+      {
+        "date": "2013-01-14",
+        "formatted_date": "January 14, 2013",
+        "year": 2013,
+        "content": "\n<p>In October of 2012, Vyacheslav Labunskyy, Ph.D. was awarded a prestigious K99/R00 Pathway to Independence Award by the National Institute on Aging (NIA) to support his research on the role of the unfolded protein response in aging. Dr. Labunskyy’s research interests include the basic mechanisms of aging and understanding the biological processes that underlie age-related diseases. In his studies, Dr. Labunskyy uses a combination of genetic, molecular and biochemical approaches to characterize the mechanisms by which ER stress response signaling regulates longevity and how protein folding capacity and redox state in the ER change with age in the yeast <em>Saccharomyces cerevisiae</em>.</p>",
+        "title": "Postdoctoral Fellow Receives NIH Pathway to Independence Award (K99/R00)",
+        "image": "/data/news/2013-01-14.jpg"
+      },
+      {
+        "date": "2013-01-07",
+        "formatted_date": "January 07, 2013",
+        "year": 2013,
+        "content": "\n<p>Members of the Division of Genetics celebrating the Holiday Season.</p>",
+        "title": "2012 Division Holiday Party",
+        "image": "/data/news/2013-01-07.jpg"
+      }
+    ],
+    "2012": [
+      {
+        "date": "2012-09-17",
+        "formatted_date": "September 17, 2012",
+        "year": 2012,
+        "content": "\n<p>Members of the lab, along with fellow Genetics members and their family and friends, celebrated the 25th anniversary of the Division of Genetics with a kick-off BBQ at Larz Anderson Park.</p>",
+        "title": "Division of Genetics 25th Anniversary BBQ",
+        "image": "/data/news/2012-09-17.png"
+      },
+      {
+        "date": "2012-05-29",
+        "formatted_date": "May 29, 2012",
+        "year": 2012,
+        "content": "\n<p>The lab celebrated Memorial Day Weekend and the kick-off of summer with a BBQ and a few rounds of soccer.</p>",
+        "title": "Memorial Day Weekend BBQ",
+        "image": "/data/news/2012-05-29.jpg"
+      }
+    ],
+    "2011": [
+      {
+        "date": "2011-12-20",
+        "formatted_date": "December 20, 2011",
+        "year": 2011,
+        "content": "\n<p>The Gladyshev Lab would like to wish everyone a safe, fun, and healthy holiday season!</p>",
+        "title": "BWH Division of Genetics Holiday Party",
+        "image": "/data/news/2011-12-20.jpg"
+      },
+      {
+        "date": "2011-10-18",
+        "formatted_date": "October 18, 2011",
+        "year": 2011,
+        "content": "",
+        "title": "Lab Bowling Night",
+        "image": "/data/news/2011-10-18.jpg"
+      },
+      {
+        "date": "2011-10-14",
+        "formatted_date": "October 14, 2011",
+        "year": 2011,
+        "content": "\n<p>The recently published naked mole rat (NMR) paper in <a href=\"http://www.nature.com/nature/journal/v478/n7368/full/478156a.html\">Nature</a> has been making headlines since being available online on Wednesday (Oct. 12th) afternoon. Below are a few selected highlights from some of the US’ major news publications.</p>\n<p><strong>Bloomberg Businessweek:</strong></p>\n<p><a href=\"http://www.businessweek.com/news/2011-10-12/naked-mole-rat-genome-map-may-aid-in-cancer-aging-research.html\">Naked Mole Rat Genome Map May Aid in Cancer, Aging Research</a></p>\n<p><strong>Harvard Gazette:</strong></p>\n<p><a href=\"http://news.harvard.edu/gazette/story/2011/11/cancer-clues-from-another-species/\">Cancer clues from another species</a></p>\n<p><strong>NPR:</strong></p>\n<p><a href=\"http://www.npr.org/2011/10/13/141313080/-re-exposed-naked-mole-rat-genome-sequenced?ps=cprs\">Naked Mole Rat’s Genetic Code Laid Bare</a></p>\n<p><strong>USA Today:</strong></p>\n<p><a href=\"http://yourlife.usatoday.com/health/healthcare/studies/story/2011-10-13/Cancer-free-rodent-genome-may-hold-key-to-aging-disease/50752436/1\">Cancer-free rodent genome may hold key to aging, disease</a></p>",
+        "title": "NMR Publication Makes Headlines"
+      },
+      {
+        "date": "2011-08-19",
+        "formatted_date": "August 19, 2011",
+        "year": 2011,
+        "content": "\n<p>Vyacheslav Labunskyy, Ph.D. has been chosen as one out of fifteen postdoctoral fellows in the country to receive the 2011 Ellison Medical Foundation/AFAR Postdoctoral Research in Aging Award. The Ellison Medical Foundation created the award, in partnership with the American Federation for Aging Research (AFAR), “to encourage and further the careers of postdoctoral fellows with outstanding promise in the basic biological and biomedical sciences relevant to understanding aging processes and age-related diseases and disabilities. The award is intended to provide significant support to permit these postdoctoral fellows to become established in the field of aging.”<br/><br />\nDr. Labunskyy’s project seeks to better understand the link between endoplasmic reticulum stress and aging, using the budding yeast Saccharomyces cerevisiae as a model system. Results of his research may have broad implications for many age-related diseases associated with aberrant folding and accumulation of misfolded proteins and may provide a rational basis for new therapeutic strategies to delay the aging process in humans.</p>",
+        "title": "Post-doc Receives an Ellison/AFAR Fellowship Award in Aging"
+      },
+      {
+        "date": "2011-06-30",
+        "formatted_date": "June 30, 2011",
+        "year": 2011,
+        "content": "\n<p>On June 17th, Marina Kasaikina successfully defended her thesis entitled, “Understanding of functions of selenoproteins and dietary selenium by using animal models,” at her home university, the University of Nebraska, Lincoln. Since 2006, Marina has worked in the lab as a graduate student researching selenium supplementation and consequences of selenium deficiency. During this time, she also published 4 papers. Following her August graduation, she will continue her research on cancer and selenium supplementation as a researcher in the lab. Congratulations, Marina, on your accomplishments!</p>",
+        "title": "Another Graduate Student Successfully Completes Ph.D. Program",
+        "image": "/data/news/2011-06-30.jpg"
+      },
+      {
+        "date": "2011-05-06",
+        "formatted_date": "May 06, 2011",
+        "year": 2011,
+        "content": "\n<p>Congratulations are in order to Mikalai Malinouski, graduate research student in the Gladyshev lab since August 2005, for completing and successfully defending his Ph.D. thesis earlier this season. Under the guidance of Dr. Gladyshev and Dmitri Fomenko, Ph.D., Mikalai graduated with a Ph.D. in Biochemistry at the University of Nebraska-Lincoln on May 6, 2011.<br/><br />\nMikalai’s Ph.D. thesis is entitled, “Understanding of Selenium Utilization and Redox Homeostasis Through Imaging and High-throughput Approaches.” During his Ph.D. course work, he was able to publish 3 papers and was also involved in various projects, including: studying the transportation and regulation of trace elements in human cells and tissues; developing a high-throughput method for ionomic profiling in mammalian cells; detecting new genes involved in trace element metabolism and identified candidate genes that uniquely regulate metabolism of particular trace elements.<br/><br />\nWe are also happy to announce that Mikalai will continue to further his research on thioredoxin reductases and selenoproteins as a Postdoctoral Fellow in the Gladyshev lab.</p>",
+        "title": "Graduate Student Researcher Receives Ph.D. Degree",
+        "image": "/data/news/2011-05-06.jpg"
+      },
+      {
+        "date": "2011-05-05",
+        "formatted_date": "May 05, 2011",
+        "year": 2011,
+        "content": "\n<p>Members of the lab went out to support Vadim’s wife, Helen, in her completion of her MFA from the Massachusetts College of Art and Design. Helen, along with other fellow graduates, exhibited their thesis for an entire week at MassArt. Members of the lab were very impressed at her self portraits and sculptures, particularly at the fact that she has only been sculpting for a short time. The entire lab would like to congratulate Helen in her achievements. We are excited to see what she will do next.</p>\n<p><a href=\"http://www.massartgraduateprograms.org/\">Learn more about MassArt...</a></p>",
+        "title": "MFA Thesis Art Exhibition",
+        "image": "/data/news/2011-05-05.jpg"
+      },
+      {
+        "date": "2011-01-11",
+        "formatted_date": "January 11, 2011",
+        "year": 2011,
+        "content": "\n<p>The American Association for the Advancement of Science (AAAS) has recently announced its 2011 Fellows, naming Vadim Gladyshev, Ph.D. as one of them.<br />\nOnly 15 Harvard faculty members were elected as Fellows this year.<br/><br />\nVadim joins three previous honorees from the Division of Genetics, Department of Medicine at Brigham &amp; Women’s Hospital: Raju Kucherlapti, Ph.D., Claude P. Lechene, M.D., Ph.D., and Steve Elledge, Ph.D. in receiving this prestigious honor.</p>\n<p><a href=\"https://news.harvard.edu/gazette/story/2011/01/aaas-announces-15-harvard-fellows/\">Read More</a></p>",
+        "title": "AAAS Names Dr. Gladyshev as a 2011 Fellow",
+        "image": "/data/news/2011-01-11.jpg"
+      }
+    ]
+  }
+}

@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+.news a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+.news a:hover {
+    color: red;
+    text-decoration: underline;
+}
