@@ -1,7 +1,9 @@
 {
-  "generated_at": "2025-11-01T16:07:20.580028",
-  "total_news": 56,
+  "generated_at": "2025-11-02T12:49:04.239436",
+  "total_news": 74,
   "years": [
+    2025,
+    2024,
     2023,
     2022,
     2021,
@@ -16,6 +18,89 @@
     2011
   ],
   "news_by_year": {
+    "2025": [
+      {
+        "date": "2025-10-06",
+        "formatted_date": "October 06, 2025",
+        "year": 2025,
+        "content": "\n<p>Gladyshev Lab spent time in a small town near Boston!</p>",
+        "title": "Annual lab retreat",
+        "image": "/data/news/2025-10-06.jpg"
+      }
+    ],
+    "2024": [
+      {
+        "date": "2024-11-21",
+        "formatted_date": "November 21, 2024",
+        "year": 2024,
+        "content": "\n<p>Read our recent publication in Cell Metabolism.<br />\nThe study reveals insights into organ-specific aging clocks and their links to disease risk and lifestyle.</p>\n<p><a href=\"https://www.sciencedirect.com/science/article/abs/pii/S1550413124004017\">Plasma protein-based organ-specific aging and mortality models unveil diseases as accelerated aging of organismal systems</a></p>",
+        "title": "Congratulations to Ludger Goeminne and the Gladyshev Lab!",
+        "image": "/data/news/2024-11-21.jpg"
+      },
+      {
+        "date": "2024-08-13",
+        "formatted_date": "August 13, 2024",
+        "year": 2024,
+        "content": "\n<p>We uncovered how aging drives mouse B cell lymphoma development via c-Myc activation, promoter hypermethylation, and somatic mutations. These changes lead to the expansion of age-associated clonal B cells (ACBCs) and increased biological age.</p>\n<p>ACBCs thrive independently, support malignancy in young recipients, and shorten lifespan. Excitingly, longevity interventions in old mice reduced these pre-malignant changes!</p>\n<p>While mouse and human B cell lymphomas differ, the epigenetic changes we observed in mice align with those in humans, suggesting potential intervention strategies.</p>\n<p><a href=\"https://www.nature.com/articles/s43587-024-00671-7#Sec29\">Age-associated clonal B cells drive B cell lymphoma in mice</a></p>",
+        "title": "Thrilled to share our latest paper in Nature Aging!",
+        "image": "/data/news/2024-08-13.jpeg"
+      },
+      {
+        "date": "2024-08-11",
+        "formatted_date": "August 11, 2024",
+        "year": 2024,
+        "content": "",
+        "title": "Our lab traveled to Old Sturbridge Village!",
+        "image": "/data/news/2024-08-11.jpg"
+      },
+      {
+        "date": "2024-05-09",
+        "formatted_date": "May 09, 2024",
+        "year": 2024,
+        "content": "\n<p>We are pleased to announce that our manuscript is now published in Nature Aging.</p>\n<p>We evaluate the contributions of stochastic and co-regulated components to single-cell epigenetic and transcriptomic aging in mice.<br />\nOver 10 years ago, precise epigenetic clocks predicting human age were developed, however, the mechanistic explanation for their work was not fully clear.</p>\n<p><a href=\"https://www.nature.com/articles/s43587-024-00616-0\">Nature of epigenetic aging from a single-cell perspective</a></p>",
+        "title": "Nature of epigenetic aging from a single-cell perspective",
+        "image": "/data/news/2024-05-09.jpg"
+      },
+      {
+        "date": "2024-05-06",
+        "formatted_date": "May 06, 2024",
+        "year": 2024,
+        "content": "\n<p><a href=\"https://www.aging-us.com/article/205824\">The beginning of becoming a human</a></p>",
+        "title": "When does a human organismal life begin? Aging may provide a clue!",
+        "image": "/data/news/2024-05-06.png"
+      },
+      {
+        "date": "2024-03-22",
+        "formatted_date": "March 22, 2024",
+        "year": 2024,
+        "content": "\n<p><a href=\"https://elifesciences.org/articles/90579\">Multi-omics characterization of partial chemical reprogramming reveals evidence of cell rejuvenation</a></p>",
+        "title": "We are pleased to announce that our manuscript on Chemical Reprogramming is now published in the journal eLife:",
+        "image": "/data/news/2024-03-22.jpg"
+      },
+      {
+        "date": "2024-03-07",
+        "formatted_date": "March 07, 2024",
+        "year": 2024,
+        "content": "\n<p>Ali Doğa Yücel and Vadim Gladyshev review connections between organismal and cellular aging, and how rejuvenation may be achieved through partial cellular reprogramming.</p>\n<p><a href=\"https://www.nature.com/articles/s41467-024-46020-5\">The long and winding road of reprogramming-induced rejuvenation</a></p>",
+        "title": "Announcing our latest paper, published in Nature Communications!",
+        "image": "/data/news/2024-03-07.jpg"
+      },
+      {
+        "date": "2024-02-24",
+        "formatted_date": "February 24, 2024",
+        "year": 2024,
+        "content": "\n<p>Our lab had a good time on the ice skating!</p>",
+        "title": "Winter lab retreat",
+        "image": "/data/news/2024-02-24.jpg"
+      },
+      {
+        "date": "2024-02-16",
+        "formatted_date": "February 16, 2024",
+        "year": 2024,
+        "content": "\n<p><a href=\"https://news.harvard.edu/gazette/story/2024/02/looking-to-rewind-the-aging-clock/\">Harvard researchers create model that better measures biological age, distinguishes between harmful and adaptive changes during life</a></p>",
+        "title": "Our work mentioned in The Harvard Gazette"
+      }
+    ],
     "2023": [
       {
         "date": "2023-10-10",
@@ -26,12 +111,43 @@
         "image": "/data/news/2023-10-10.jpg"
       },
       {
+        "date": "2023-09-11",
+        "formatted_date": "September 11, 2023",
+        "year": 2023,
+        "content": "\n<p>In the burgeoning field of aging biology, we stand at a pivotal moment. The spotlight is on, but amid the excitement, we must tackle a pressing question: What is aging, really?</p>\n<p><a href=\"https://www.pnas.org/doi/10.1073/pnas.2307449120\">We need to shift the focus of aging research to aging itself</a></p>",
+        "title": "Announcing our latest paper in PNAS by Jesse Poganik and Vadim Gladyshev!",
+        "image": "/data/news/2023-09-11.jpg"
+      },
+      {
         "date": "2023-07-07",
         "formatted_date": "July 07, 2023",
         "year": 2023,
         "content": "\n<p>Golf Lesson.</p>",
         "title": "Summer Lab Outing. Newton, MA.",
         "image": "/data/news/2023-07-07.jpg"
+      },
+      {
+        "date": "2023-06-05",
+        "formatted_date": "June 05, 2023",
+        "year": 2023,
+        "content": "<p>Happy to share our new paper published in Cell!</p>\n<p>One of the top candidates predicted by our platform, the drug KU0063794, significantly extended remaining lifespan and improved health span of aged mice. In addition, we developed an interactive online database mSALT.</p>\n<p><a href=\"https://www.sciencedirect.com/science/article/pii/S0092867423004762?dgcid=author\">Distinct longevity mechanisms across and within species and their association with aging</a></p>",
+        "title": null
+      },
+      {
+        "date": "2023-04-26",
+        "formatted_date": "April 26, 2023",
+        "year": 2023,
+        "content": "<p>Our work was recently featured in the Harvard Gazette</p>\n<p><a href=\"https://news.harvard.edu/gazette/story/2023/04/how-dynamic-is-biological-age/\">https://news.harvard.edu/gazette/story/2023/04/how-dynamic-is-biological-age/</a></p>",
+        "title": null,
+        "image": "/data/news/2023-04-26.png"
+      },
+      {
+        "date": "2023-01-23",
+        "formatted_date": "January 23, 2023",
+        "year": 2023,
+        "content": "\n<p>We introduce a conceptually new view of metabolism and suggest practical ways to adjust it for the purpose of life extension.</p>\n<p><a href=\"https://cell.com/trends/endocrinology-metabolism/fulltext/S1043-2760(23)00014-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1043276023000140%3Fshowall%3Dtrue\">Metabolism, homeostasis, and aging</a></p>",
+        "title": "Our new manuscript by Alibek Moldakozhayev and Vadim Gladyshev is out!",
+        "image": "/data/news/2023-01-23.jpg"
       }
     ],
     "2022": [
@@ -44,12 +160,44 @@
         "image": "/data/news/2022-10-28.jpg"
       },
       {
+        "date": "2022-10-10",
+        "formatted_date": "October 10, 2022",
+        "year": 2022,
+        "content": "\n<p>We built the first causal #aging biomarkers that could separate damage and adaptation, using the CpGs causal to lifespan &amp; healthspan.</p>\n<p><a href=\"https://www.biorxiv.org/content/10.1101/2022.10.07.511382v1\">Causal Epigenetic Age Uncouples Damage and Adaptation</a></p>",
+        "title": "Our new preprint by Kejun Ying et al. is out!",
+        "image": "/data/news/2022-10-10.png"
+      },
+      {
+        "date": "2022-09-17",
+        "formatted_date": "September 17, 2022",
+        "year": 2022,
+        "content": "\n<p>Our new paper shows that rapamycin given during development extends lifespan and healthspan later in life.</p>\n<p><a href=\"https://www.science.org/doi/10.1126/sciadv.abo5482\">Rapamycin treatment during development extends life span and health span of male mice and Daphnia magna</a></p>",
+        "title": "Congratulations to Anastasia Shindepina and everyone involved!",
+        "image": "/data/news/2022-09-17.jpg"
+      },
+      {
+        "date": "2022-08-05",
+        "formatted_date": "August 05, 2022",
+        "year": 2022,
+        "content": "\n<p>Congrats to everyone involved!</p>\n<p><a href=\"https://www.biorxiv.org/content/10.1101/2022.08.02.502559v1\">Epigenetic profiling and incidence of disrupted development point to gastrulation as aging ground zero in Xenopus laevis</a></p>",
+        "title": "Our new preprint by Zhang et al. is out!",
+        "image": "/data/news/2022-08-05.png"
+      },
+      {
         "date": "2022-06-28",
         "formatted_date": "June 28, 2022",
         "year": 2022,
         "content": "\n<p>Trip along the coastal railway of Aquidneck Island.</p>",
         "title": "Lab Outing. Rail Explorers. RI.",
         "image": "/data/news/2022-06-28.jpg"
+      },
+      {
+        "date": "2022-05-13",
+        "formatted_date": "May 13, 2022",
+        "year": 2022,
+        "content": "\n<p>We report that severe stress triggers transient increases in biological age in mice and humans.</p>\n<p><a href=\"https://www.biorxiv.org/content/10.1101/2022.05.04.490686v1\">Biological age is increased by stress and restored upon recovery</a></p>",
+        "title": "Check out our new preprint by Jesse Poganik et al.!",
+        "image": "/data/news/2022-05-13.png"
       },
       {
         "date": "2022-03-05",

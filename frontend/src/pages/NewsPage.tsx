@@ -181,7 +181,7 @@ const NewsPage: React.FC = () => {
                       <img 
                         src={item.image} 
                         alt="News" 
-                        className="max-h-96 object-cover rounded-lg mb-4"
+                        className="max-h-140 object-cover rounded-lg mb-4"
                       />
                     )}
 

@@ -12,6 +12,11 @@ export default defineConfig({
         target: 'http://0.0.0.0:8010',
         changeOrigin: true,
       }
-    }
-  }
+    },
+    allowedHosts: ['chronos', 'test.gladyshevlab.org']
+  },
+  preview: {
+    host: '0.0.0.0',
+    port: 5173,
+  },
 })

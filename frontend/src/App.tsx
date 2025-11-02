@@ -30,13 +30,13 @@ const App: React.FC = () => {
       </nav>
 
       {/* Main Content */}
-      <main className="max-w-6xl mx-auto p-10 px-50">
+      <main className="max-w-6xl mx-auto p-10 px-40">
         <Routes>
           <Route path="/" element={
             <div className="">
               {/* Team Photo */}
               <img
-                src="2022NRB.jpg"
+                src="lab.jpg"
                 alt="Gladyshev Lab team in front of Pasteur Institute"
                 className="w-full max-w-4xl mx-auto rounded-lg shadow-lg mb-8"
               />
