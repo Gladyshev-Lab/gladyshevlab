@@ -83,8 +83,8 @@ def parse_article(article):
     """Распарсить статью из XML"""
     try:
         journal = article['MedlineCitation']['Article']['Journal']['Title']
-        if 'bioRxiv' in journal or 'biorxiv' in journal or 'medRxiv' in journal or 'medrxiv' in journal:
-            return None
+        # if 'bioRxiv' in journal or 'biorxiv' in journal or 'medRxiv' in journal or 'medrxiv' in journal:
+        #     return None
             
         pub_date = article['MedlineCitation']['Article']['Journal']['JournalIssue']['PubDate']
         date = pub_date.get('MedlineDate', f"{pub_date.get('Year', '')}-{pub_date.get('Month', '')}")
@@ -439,8 +439,8 @@ def generate_umap_visualization(df):
                           "<b>Coord:</b> (%{x:.2f}, %{y:.2f}, %{z:.2f})<br>"
                           "<extra></extra>",
             marker=dict(
-                size=5,
-                opacity=0.8,
+                size=4,
+                opacity=0.7,
                 line=dict(width=0.3, color='rgba(50,50,50,0.7)'),
                 color=years[mask],
                 colorscale='Turbo',
@@ -452,7 +452,8 @@ def generate_umap_visualization(df):
                     len=0.8,
                     x=1.05
                 ) if show_scale else None
-            )
+            ),
+            legendgroup=f"cluster_{c}"
         ))
     
     # Add cluster centers
@@ -497,6 +498,7 @@ def generate_umap_visualization(df):
             'xanchor': 'center',
             'font': {'size': 16, 'family': 'Arial'}
         },
+        showlegend=False,
         scene=dict(
             xaxis=dict(
                 title="UMAP Dim 1",
@@ -532,19 +534,22 @@ def generate_umap_visualization(df):
         paper_bgcolor="rgba(10,10,20,1)",
         plot_bgcolor="rgba(10,10,20,1)",
         font=dict(family="Arial", size=10, color="white"),
-        legend=dict(
-            bgcolor="rgba(20,20,30,0.9)",
-            bordercolor="rgba(255,255,255,0.1)",
-            borderwidth=1,
-            font=dict(color="white", size=8),
-            itemsizing="constant",
-            yanchor="top",
-            y=0.99,
-            xanchor="left",
-            x=0.01
-        ),
-        width=1200,
-        height=800,
+        # legend=dict(
+        #     bgcolor="rgba(20,20,30,0.9)",
+        #     bordercolor="rgba(255,255,255,0.1)",
+        #     borderwidth=1,
+        #     font=dict(color="white", size=8),
+        #     itemsizing="constant",
+        #     yanchor="top",
+        #     y=0.99,
+        #     xanchor="left",
+        #     x=0.01,
+        #     itemclick="toggleothers",
+        #     itemdoubleclick="toggle",
+        #     tracegroupgap=10
+        # ),
+        width=800,
+        height=600,
         margin=dict(l=10, r=10, t=60, b=10)
     )
     
@@ -562,7 +567,15 @@ def generate_umap_visualization(df):
     os.makedirs(os.path.dirname(OUTPUT_UMAP), exist_ok=True)
     
     # Save
-    fig.write_html(OUTPUT_UMAP, config={'displayModeBar': True, 'displaylogo': False, 'responsive': True})
+    fig.write_html(
+        OUTPUT_UMAP,
+        config={
+            'displayModeBar': True,
+            'displaylogo': False,
+            'responsive': True
+        },
+        include_plotlyjs='cdn'
+    )
     print(f"UMAP visualization saved to: {OUTPUT_UMAP}")
     
     # Print cluster report
