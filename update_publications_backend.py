@@ -25,7 +25,7 @@ warnings.simplefilter(action='ignore', category=pd.errors.SettingWithCopyWarning
 
 # ==================== CONFIGURATION ====================
 Entrez.email = "your.email@example.com"
-AUTHOR_NAMES = ['"Gladyshev V"', '"Gladyshev Vadim"', '"Gladyshev VN"']
+AUTHOR_NAMES = ['"Gladyshev V"', '"Gladyshev Vadim"', '"Gladyshev VN"', '"Gladyshev VN[Author]"', '"Gladyshev V[Author]"']
 AUTHOR_NAMES_STRIPPED = ['Gladyshev V', 'Gladyshev Vadim', 'Gladyshev VN']
 IMPACT_CSV = "journal_impact_factors_2023.csv"
 

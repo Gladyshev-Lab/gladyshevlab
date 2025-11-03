@@ -44,14 +44,16 @@ const App: React.FC = () => {
               {/* Lab Description */}
               <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md border border-gray-200 max-w-4xl mx-auto">
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4">
-                  The Gladyshev Lab at Harvard Medical School studies the fundamental mechanisms of aging and 
-                  age-related diseases. Our research focuses on selenium biology, oxidative stress, and the 
-                  development of interventions to promote healthy longevity.
+                  The Gladyshev Lab at Harvard Medical School investigates the fundamental nature of aging, 
+                  rejuvenation, and lifespan control. We combine experimental systems, human cohorts, and 
+                  computational analyses to understand why organisms age and how to measure, map, and modulate 
+                  this process.
                 </p>
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4">
-                  We combine computational biology, genomics, and experimental approaches to understand how 
-                  cells age and how we can intervene in this process. Our work has implications for treating 
-                  age-related diseases and extending healthspan.
+                  Our work spans quantitative biomarkers of biological age, mechanisms of rejuvenation, genetics 
+                  of exceptional longevity, cross-species analyses, and the interface between aging and disease. 
+                  The lab has pioneered research in redox and selenium biology, discovering how these systems 
+                  shape health, aging, and longevity across species.
                 </p>
                 <p className="text-base sm:text-lg font-semibold text-gray-800 mb-4 mt-10">Follow us on 𝕏:
                   <a

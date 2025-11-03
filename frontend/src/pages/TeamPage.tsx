@@ -114,18 +114,6 @@ const TeamPage: React.FC = () => {
                   <p className="text-sm text-black-600 text-center mb-2">
                     {member.title}
                   </p>
-                  <p className="text-sm text-gray-600 text-center mb-3">
-                    {member.interests}
-                  </p>
-                  <p className="text-sm text-gray-700 text-center underline">
-                    {member.scholar && /^https?:\/\/.+/.test(member.scholar) ? (
-                      <a href={member.scholar} target="_blank" rel="noopener noreferrer">
-                        Publications
-                      </a>
-                    ) : (
-                      <span className="text-gray-400">No Publications Link</span>
-                    )}
-                  </p>
                 </div>
               ))}
             </div>

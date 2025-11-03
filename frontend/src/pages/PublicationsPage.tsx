@@ -115,7 +115,7 @@ const PublicationsPage: React.FC = () => {
           <span className="text-xl text-gray-600 ml-3">({data.total_publications} total)</span>
         </h1>
         
-        {/* UMAP Button */}
+        {/* UMAP Button - Commented out per Vadim's feedback (clusters are wrong)
         <a
           href="/umap_visualization.html"
           target="_blank"
@@ -127,6 +127,7 @@ const PublicationsPage: React.FC = () => {
           </svg>
           View UMAP Visualization
         </a>
+        */}
       </div>
 
       {/* Search Bar */}
