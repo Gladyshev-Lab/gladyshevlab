@@ -1,0 +1,27 @@
+# /etc/systemd/system/gladyshev-lab-site.service
+
+[Unit]
+Description=Gladyshev Lab Website
+After=network.target
+
+[Service]
+Type=simple
+User=dglubokov
+Group=dglubokov
+WorkingDirectory=/Entropy/dglubokov/gladyshevlab/frontend
+Environment="NODE_ENV=development"
+Environment="PATH=/usr/bin:/usr/local/bin"
+ExecStart=/usr/bin/npm run dev -- --host 0.0.0.0 --port 5173
+Restart=always
+RestartSec=10
+
+# Logging
+StandardOutput=append:/var/log/gladyshev-lab-site/output.log
+StandardError=append:/var/log/gladyshev-lab-site/error.log
+
+# Safety
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
