@@ -1,6 +1,7 @@
 // src/App.tsx (Main page with navigation and home content)
-import React from 'react'
+import React, { useState } from 'react'
 import { Link, Route, Routes } from 'react-router-dom'
+import HomePage from './pages/HomePage'
 import ResearchPage from './pages/ResearchPage'
 import TeamPage from './pages/TeamPage'
 import PublicationsPage from './pages/PublicationsPage'
@@ -9,78 +10,144 @@ import LabToolsPage from './pages/LabToolsPage'
 import ContactPage from './pages/ContactPage'
 
 const App: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
+  const closeMenu = () => setIsMenuOpen(false)
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header Bar */}
-      <header className="bg-gray-100 border-b border-gray-200 flex justify-center py-4 px-4">
+      <header className="bg-gray-100 flex justify-center py-4 px-4">
         <img src="./src/assets/logo.png" alt="Gladyshev Lab Logo" className="h-12 w-auto sm:h-16 md:h-20 object-contain" />
       </header>
 
       {/* Navigation Bar */}
-      <nav className="bg-red-700 py-2 sm:py-3 px-4">
-        <ul className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8 text-white font-medium max-w-6xl mx-auto items-center justify-center text-center sm:text-left"> {/* ИЗМЕНЕНО: flex-col на мобильном, space-y, text-center */}
-          <li><Link to="/" className="hover:underline block py-1">Home</Link></li>
-          <li><Link to="/research" className="hover:underline block py-1">Research</Link></li>
-          <li><Link to="/team" className="hover:underline block py-1">Team</Link></li>
-          <li><Link to="/publications" className="hover:underline block py-1">Publications</Link></li>
-          <li><Link to="/news" className="hover:underline block py-1">News</Link></li>
-          <li><Link to="/tools" className="hover:underline block py-1">Lab Tools</Link></li>
-          <li><Link to="/contact" className="hover:underline block py-1">Contact</Link></li>
-        </ul>
+      <nav className="bg-red-800 py-2 sm:py-3 px-4">
+        <div className="max-w-6xl mx-auto">
+          {/* Mobile Menu Button */}
+          <div className="sm:hidden flex justify-start">
+            <button
+              onClick={toggleMenu}
+              className="text-white p-2 focus:outline-none"
+              aria-label="Toggle menu"
+            >
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                {isMenuOpen ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                ) : (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                )}
+              </svg>
+            </button>
+          </div>
+
+          {/* Desktop Menu */}
+          <ul className="hidden sm:flex sm:flex-row sm:space-x-8 text-white font-medium items-center justify-center text-center">
+            <li><Link to="/" className="hover:underline block py-1">Home</Link></li>
+            <li><Link to="/research" className="hover:underline block py-1">Research</Link></li>
+            <li><Link to="/team" className="hover:underline block py-1">Team</Link></li>
+            <li><Link to="/publications" className="hover:underline block py-1">Publications</Link></li>
+            <li><Link to="/news" className="hover:underline block py-1">News</Link></li>
+            <li><Link to="/tools" className="hover:underline block py-1">Lab Tools</Link></li>
+            <li><Link to="/contact" className="hover:underline block py-1">Contact</Link></li>
+          </ul>
+
+          {/* Mobile Menu */}
+          {isMenuOpen && (
+            <ul className="sm:hidden flex flex-col space-y-2 mt-4 text-white font-medium text-left">
+              <li><Link to="/" className="hover:underline block py-2" onClick={closeMenu}>Home</Link></li>
+              <li><Link to="/research" className="hover:underline block py-2" onClick={closeMenu}>Research</Link></li>
+              <li><Link to="/team" className="hover:underline block py-2" onClick={closeMenu}>Team</Link></li>
+              <li><Link to="/publications" className="hover:underline block py-2" onClick={closeMenu}>Publications</Link></li>
+              <li><Link to="/news" className="hover:underline block py-2" onClick={closeMenu}>News</Link></li>
+              <li><Link to="/tools" className="hover:underline block py-2" onClick={closeMenu}>Lab Tools</Link></li>
+              <li><Link to="/contact" className="hover:underline block py-2" onClick={closeMenu}>Contact</Link></li>
+            </ul>
+          )}
+        </div>
       </nav>
 
       {/* Main Content */}
-      <main className="max-w-6xl mx-auto px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:px-40">
+      <main>
         <Routes>
-          <Route path="/" element={
-            <div className="space-y-6">
-              {/* Team Photo */}
-              <img
-                src="lab.jpg"
-                alt="Gladyshev Lab team in front of Pasteur Institute"
-                className="w-full max-w-4xl mx-auto block rounded-lg shadow-lg"
-              />
-              
-              {/* Lab Description */}
-              <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md border border-gray-200 max-w-4xl mx-auto">
-                <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4">
-                  The Gladyshev Lab at Harvard Medical School investigates the fundamental nature of aging, 
-                  rejuvenation, and lifespan control. We combine experimental systems, human cohorts, and 
-                  computational analyses to understand why organisms age and how to measure, map, and modulate 
-                  this process.
-                </p>
-                <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4">
-                  Our work spans quantitative biomarkers of biological age, mechanisms of rejuvenation, genetics 
-                  of exceptional longevity, cross-species analyses, and the interface between aging and disease. 
-                  The lab has pioneered research in redox and selenium biology, discovering how these systems 
-                  shape health, aging, and longevity across species.
-                </p>
-                <p className="text-base sm:text-lg font-semibold text-gray-800 mb-4 mt-10">Follow us on 𝕏:
-                  <a
-                    href="https://X.com/gladyshev_lab"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center space-x-2 text-red-600 hover:text-red-700 font-medium ml-2"
-                  >
-                    <span>@gladyshev_lab</span>
-                  </a>
-                </p>
-              </div>
-            </div>
-          } />
-          <Route path="/research" element={<ResearchPage />} />
-          <Route path="/team" element={<TeamPage />} />
-          <Route path="/publications" element={<PublicationsPage />} />
-          <Route path="/news" element={<NewsPage />} />
-          <Route path="/tools" element={<LabToolsPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/research" element={<div className="px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:px-40"><ResearchPage /></div>} />
+          <Route path="/team" element={<div className="px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:px-40"><TeamPage /></div>} />
+          <Route path="/publications" element={<div className="px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:px-40"><PublicationsPage /></div>} />
+          <Route path="/news" element={<div className="px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:px-40"><NewsPage /></div>} />
+          <Route path="/tools" element={<div className="px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:px-40"><LabToolsPage /></div>} />
+          <Route path="/contact" element={<div className="px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 lg:px-40"><ContactPage /></div>} />
         </Routes>
       </main>
 
-      {/* Footer (Optional, simple for now) */}
-      <footer className="bg-gray-800 text-white py-4 mt-12 px-4">
-        <div className="text-center max-w-6xl mx-auto">
-          <p>&copy; 2025 Gladyshev Lab. All rights reserved.</p>
+      {/* Footer with Affiliations */}
+      <footer className="text-white py-8 mt-12 px-4">
+        <div className="max-w-6xl mx-auto">
+          {/* Affiliations */}
+          <div className="flex flex-wrap justify-center items-center gap-8 mb-6">
+            <div className="text-center">
+              <img 
+                src="/logos/harvard.jpg" 
+                alt="Harvard Medical School" 
+                className="h-16 w-auto mx-auto mb-2p-2 rounded"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                  const placeholder = e.currentTarget.nextElementSibling as HTMLElement;
+                  if (placeholder) placeholder.style.display = 'block';
+                }}
+              />
+              <div style={{display: 'none'}} className="h-16 w-32 bg-gray-600 rounded flex items-center justify-center text-xs">HMS Logo</div>
+            </div>
+            
+            <div className="text-center">
+              <img 
+                src="/logos/mgb.svg" 
+                alt="Mass General Brigham" 
+                className="h-16 w-auto mx-auto mb-2 p-2 rounded"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                  const placeholder = e.currentTarget.nextElementSibling as HTMLElement;
+                  if (placeholder) placeholder.style.display = 'block';
+                }}
+              />
+              <div style={{display: 'none'}} className="h-16 w-32 bg-gray-600 rounded flex items-center justify-center text-xs">MGB Logo</div>
+            </div>
+            
+            <div className="text-center">
+              <img 
+                src="/logos/broad.png" 
+                alt="Broad Institute" 
+                className="h-16 w-auto mx-auto mb-2 p-2 rounded"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                  const placeholder = e.currentTarget.nextElementSibling as HTMLElement;
+                  if (placeholder) placeholder.style.display = 'block';
+                }}
+              />
+              <div style={{display: 'none'}} className="h-16 w-32 bg-gray-600 rounded flex items-center justify-center text-xs">Broad Logo</div>
+            </div>
+          </div>
+          
+          {/* Copyright */}
+          <div className="text-center text-gray-500">
+            <p>&copy; 2025 Gladyshev Lab. All rights reserved.</p>
+          </div>
         </div>
       </footer>
     </div>
